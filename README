@@ -1,0 +1,22 @@
+Run method:
+
+for add_test.hs    
+    maemo@maemo-desktop:~/mycode/trial_Haskell_basic$ ghci
+    GHCi, version 7.0.3: http://www.haskell.org/ghc/  :? for help
+    Loading package ghc-prim ... linking ... done.
+    Loading package integer-gmp ... linking ... done.
+    Loading package base ... linking ... done.
+    Prelude> :l add_test.hs 
+    [1 of 1] Compiling Main             ( add_test.hs, interpreted )
+    Ok, modules loaded: Main.
+    *Main> add 4 5
+    9
+
+
+
+for hello.hs    
+    (1) chmod +x hello.hs
+        ./hello.hs
+    (2) ghc --make hello 
+        ./hello:wq1
+
